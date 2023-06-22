@@ -17,13 +17,25 @@
         </ul>
     </menu>
     <header>
-        <img src="./public/consultorio.png" alt="consultorio">
+        <img src="./public/consultorioContato.png" alt="contato">
     </header>
     <main>
-        <h1>Clinica Pisc</h1>
-        <p>A Pisc é uma clinica voltada para os problemas mentais masculinos, 
-           busca apresentar formas de combater o machismo dentro de si mesmo
-        </p>
+        <form action="post">
+            <label for="telefone">Nome</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+
+            <label for="assunto">Assunto</label>
+            <input type="text" name="assunto" id="assunto">
+
+            <label for="message">Mensagem</label>
+            <input type="text" name="message" id="message">
+
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+        </form>
     </main>
     <footer>
         <a href="pisc@clinicamasculina.com">pisc@clinicamasculina.com</a>
